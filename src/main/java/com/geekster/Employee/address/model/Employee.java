@@ -25,6 +25,6 @@ public class Employee {
     private String lastName;
 
   //  @OneToOne(cascade = CascadeType.ALL, mappedBy = "employee",fetch = FetchType.LAZY)
-    private Address address;
+   // private Address address;
 
 }
