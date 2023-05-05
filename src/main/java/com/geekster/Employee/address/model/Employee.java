@@ -24,7 +24,7 @@ public class Employee {
     @NotBlank(message = "lastName cannot be blank")
     private String lastName;
 
-    @OneToOne(cascade = CascadeType.ALL, mappedBy = "employee")
+  //  @OneToOne(cascade = CascadeType.ALL, mappedBy = "employee",fetch = FetchType.LAZY)
     private Address address;
 
 }
